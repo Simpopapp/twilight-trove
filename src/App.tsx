@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Toca from "./pages/Toca";
 import Knowledge from "./pages/Knowledge";
 import Pegadas from "./pages/Pegadas";
+import Lua from "./pages/Lua";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/toca" element={<Toca />} />
           <Route path="/knowledge" element={<Knowledge />} />
           <Route path="/pegadas" element={<Pegadas />} />
+          <Route path="/lua" element={<Lua />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

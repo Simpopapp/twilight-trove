@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Toca from "./pages/Toca";
+import Knowledge from "./pages/Knowledge";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +18,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/toca" element={<Toca />} />
+          <Route path="/knowledge" element={<Knowledge />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

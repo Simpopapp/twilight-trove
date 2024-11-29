@@ -1,4 +1,4 @@
-import { Home, Tree, Footprints, Moon, Users } from "lucide-react";
+import { Home, TreeDeciduous, Footprints, Moon, Users } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 
@@ -19,7 +19,7 @@ const Index = () => {
     },
     {
       name: "Árvore do Conhecimento",
-      Icon: Tree,
+      Icon: TreeDeciduous,
       position: "top-1/3 left-1/3",
     },
     {

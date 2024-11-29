@@ -22,6 +22,7 @@ const Pegadas = () => {
       description: "Guie sua matilha através de desafios ecológicos, como busca por alimento e proteção dos filhotes.",
       icon: PawPrint,
       color: "bg-amber-500",
+      image: "/images/pegadas/sobrevivencia-matilha.jpg"
     },
     {
       id: "tracks",
@@ -29,6 +30,7 @@ const Pegadas = () => {
       description: "Identifique pegadas de diferentes animais e descubra suas histórias na natureza.",
       icon: Footprints,
       color: "bg-sky-500",
+      image: "/images/pegadas/rastros-neve.jpg"
     },
     {
       id: "legends",
@@ -36,6 +38,7 @@ const Pegadas = () => {
       description: "Teste seus conhecimentos sobre mitos e fatos dos lobos ao redor do mundo.",
       icon: Target,
       color: "bg-purple-500",
+      image: "/images/pegadas/cacador-lendas.jpg"
     },
     {
       id: "daily",
@@ -43,6 +46,7 @@ const Pegadas = () => {
       description: "Complete missões especiais e ganhe recompensas exclusivas.",
       icon: Trophy,
       color: "bg-emerald-500",
+      image: "/images/pegadas/desafios-diarios.jpg"
     },
   ];
 
